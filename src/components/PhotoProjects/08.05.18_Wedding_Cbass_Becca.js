@@ -9,7 +9,7 @@ import shuffle from '../configs/shuffle'
 
 {/************************** Header Data *************************/ }
 const headerData = {
-  bgImage: require('../../images/08.05.18_Wedding_Cbass_Becca/Wedding_Cbass-2.jpg'),
+  bgImage: require('../../images/Portraits/3_XT038549.jpg'),
   title: "Sebastian and Becca's Wedding",
   date: "August 5th, 2018",
   desc: "High School Sweet Hearts tie the knot in Maui"
@@ -30,10 +30,10 @@ const imageArray = [
   // }
 ];
 
-for (var i = 1; i <= 33; i++) {
+for (var i = 1; i <= 1; i++) {
   const obj = {
-    src: require('../../images/08.05.18_Wedding_Cbass_Becca/Wedding_Cbass-' + i + '.jpg'),
-    thumbnail: require('../../images/08.05.18_Wedding_Cbass_Becca/Wedding_Cbass-' + i + '.jpg'),
+    src: require('../../images/Portraits/3_XT038549' /*+ i*/ + '.jpg'),
+    thumbnail: require('../../images/Portraits/3_XT038549' /*+ i*/ + '.jpg'),
     caption: '',
     category: ""
   }

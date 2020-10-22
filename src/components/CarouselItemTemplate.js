@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import {
-    Mask, Row, Col, Fa, Button, View, Container,
+    Mask, Row, Col, Fa, Button, View, Container, 
     Carousel, CarouselCaption, CarouselInner, CarouselItem
 } from 'mdbreact';
 import './css/App.css'
