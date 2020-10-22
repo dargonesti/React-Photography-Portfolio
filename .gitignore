@@ -3,10 +3,10 @@
 package-lock.json
 
 # production
-dist
+#dist
 
 #images
-/src/images/
+#/src/images/
 
 # misc
 .DS_Store
